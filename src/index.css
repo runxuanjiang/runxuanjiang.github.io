@@ -1,13 +1,49 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: Now;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Now';
+  src: local('Now'), url(./fonts/Now-Regular.otf) format("opentype");
+  font-weight: normal;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  color: teal;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+
+p {
+  padding-top: 0;
+  font-size: 120%;
+}
+
+img {
+  display: block;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+
+}
+
+figcaption {
+  text-align: center;
+  font-size: 120%;
 }

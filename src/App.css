@@ -1,13 +1,35 @@
 .App {
-  padding-left: 15%;
-  padding-right: 15%;
+  width: 70%;
+  margin: auto;
   margin-top: 1%;
 }
 
+.NavBarOuter {
+  text-align: center;
+}
+
 .NavBar {
-  width: 100%;
+  width: 50%;
   display: inline-flex;
   align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.LinksBarOuter {
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+.LinksBarInner {
+  width: 70%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-size: 150%;
+}
+
+.ContactLabel {
+  display: flex;
+  align-items: center;
 }
 
 .MainNavTab {
@@ -15,14 +37,35 @@
   white-space: nowrap;
 }
 
-
 .NavTab {
   font-size: 180%;
-  margin-left: 7.50%;
   white-space: nowrap;
 }
 
-a:hover {
+.MainNavTab:hover {
   text-decoration: none !important;
-  font-weight: 500;
+  color: teal !important;
+}
+
+.NavTab:hover {
+  text-decoration: none !important;
+  color: teal !important;
+}
+
+.Page {
+  margin: auto;
+  margin-top: 3%;
+  width: 90%;
+}
+
+.BottomBar {
+  background-color: teal;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 0.75%;
+  padding-bottom: 0.75%;
+  font-size: 75%;
+  bottom: 0;
 }
