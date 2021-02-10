@@ -44,7 +44,7 @@ function App() {
         </div>
       </Router>
       <div className="BottomBar">
-        Made with ReactJS [<a href="" target="_blank" style={{"color":"coral"}}>Source Code</a>]
+        Made with ReactJS [<a href="https://github.com/runxuanjiang/runxuanjiang.github.io" target="_blank" style={{"color":"coral"}}>Source Code</a>]
       </div>
     </div>
   );
