@@ -13,9 +13,6 @@ import {SiGooglescholar} from 'react-icons/si';
 import Home from './Pages/home';
 import Projects from './Pages/projects';
 import Research from './Pages/research';
-import QuestPage from './Pages/quest';
-
-import {s1, s2, Quest} from './utils';
 
 
 
@@ -23,16 +20,12 @@ function App() {
   return (
     <div>
       <Router>
-        <Quest/>
         <div className="App">
           <TopBar/>
           <LinksBar/>
           <Switch>
             <Route path="/research">
               <Research />
-            </Route>
-            <Route path={s1}>
-              <QuestPage/>
             </Route>
             {/* <Route path="/projects">
               <Projects />

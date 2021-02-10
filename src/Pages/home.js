@@ -8,7 +8,7 @@ export default function Home() {
             <img src="/images/GardenOfClocks.jpg"/>
             <figcaption>
             What proportion of each circle is colored? (The 12 dots are equally spaced).  <br/>
-            This puzzle was created by <a href="https://twitter.com/Cshearer41" target="_blank">Catriona Shearer</a>,
+            This puzzle is called "Garden of Clocks" and was created by <a href="https://twitter.com/Cshearer41" target="_blank">Catriona Shearer</a>,
             you can check out more of her puzzles <a href="http://www.murderousmaths.co.uk/teacher/Catrionas%20Puzzles.htm" target="_blank">here</a>.
             </figcaption>
         </figure>
