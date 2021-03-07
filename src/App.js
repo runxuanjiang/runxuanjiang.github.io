@@ -14,12 +14,15 @@ import Home from './Pages/home';
 import Projects from './Pages/projects';
 import Research from './Pages/research';
 
+import ScrollToTop from './Utils';
+
 
 
 function App() {
   return (
     <div>
       <Router>
+        <ScrollToTop/>
         <div className="App">
           <TopBar/>
           <LinksBar/>
@@ -51,9 +54,7 @@ function TopBar() {
       <div className="NavBar">
           <Link className="MainNavTab" to="/" style={{color: (path == "/" ? "teal" : "gray")}}>Runxuan Jiang</Link>
           <Link className="NavTab" to="/research" style={{color: (path == "/research" ? "teal" : "gray")}}>Research</Link>
-
           {/* <Link className="NavTab" to="/projects" style={{color: (path == "/projects" ? "teal" : "gray")}}>Projects</Link> */}
-
 
       </div>
     </div>

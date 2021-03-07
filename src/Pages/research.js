@@ -17,7 +17,7 @@ export default function Research() {
             <h1>Publications</h1>
             <h2>2020</h2>
             <p>
-                <a href="https://arxiv.org/pdf/2006.07078.pdf" target="_blank">TorsionNet: A Reinforcement Learning Approach to Sequential Conformer Search</a> <br/>
+                <a href="https://arxiv.org/abs/2006.07078" target="_blank">TorsionNet: A Reinforcement Learning Approach to Sequential Conformer Search</a> <br/>
                 Tarun Gogineni, Ziping Xu, Exequiel Punzalan, <b>Runxuan Jiang</b>, Joshua Kammeraad, Ambuj Tewari, and Paul Zimmerman <br/>
                 In 2020 Conference on Neural Information Processing Systems (<a href="https://nips.cc/Conferences/2020" target="_blank">NeurIPS 2020</a>).
             </p>
