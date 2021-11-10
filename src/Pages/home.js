@@ -20,7 +20,7 @@ export default function Home() {
 
             <h1>About</h1>
             <p>
-                I am a third-year student (e.g. junior) studying computer science engineering and mathematics at the <b>University of Michigan</b>. 
+                I am a fourth-year student studying computer science engineering and mathematics at the <b>University of Michigan</b>. 
             </p>
             <p>
                 My main interests are in <b>pure math </b> 
@@ -34,13 +34,13 @@ export default function Home() {
 
             <h1>Experience</h1>
             <p>
-                I am currently working as a research assistant at the University of Michigan EECS department, advised by prof. <a href="https://ambujtewari.github.io/" target="_blank">Ambuj Tewari</a>.
+                I am currently working as a research assistant at the University of Michigan EECS department and statistics department, advised by prof. <a href="https://ambujtewari.github.io/" target="_blank">Ambuj Tewari</a>.
                 My work is mainly on reinforcement learning, you can read more about it
                 <Link to="/research"> here</Link>.
             </p>
 
             <p>
-                I will be interning at <b> Citadel </b> as a software engineering intern this upcoming Summer (Summer 2021).
+                In Summer 2021 I interned at <b>Citadel</b> as a software engineering intern in Chicago.
                 In Summer 2020, I worked as an SDE intern at <b> Amazon</b>.
             </p>
 
