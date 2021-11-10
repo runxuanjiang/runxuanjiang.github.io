@@ -7,5 +7,6 @@ npm start
 
 ## Deploying the website to Github Pages
 ```
-npm deploy
+npm run build
+npm run deploy
 ```
