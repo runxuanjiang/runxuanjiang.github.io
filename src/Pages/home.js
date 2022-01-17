@@ -13,14 +13,9 @@ export default function Home() {
             </figcaption>
         </figure>
 
-            <h1>News</h1>
-            <p>
-                I am currently taking a gap semester (Winter 2021 semester) to focus more time on my research and to avoid online classes.
-            </p>
-
             <h1>About</h1>
             <p>
-                I am a fourth-year student studying computer science engineering and mathematics at the <b>University of Michigan</b>. 
+                I am a fourth-year student studying computer science engineering and (honors) mathematics at the <b>University of Michigan</b>. 
             </p>
             <p>
                 My main interests are in <b>pure math </b> 
@@ -37,6 +32,10 @@ export default function Home() {
                 I am currently working as a research assistant at the University of Michigan EECS department and statistics department, advised by prof. <a href="https://ambujtewari.github.io/" target="_blank">Ambuj Tewari</a>.
                 My work is mainly on reinforcement learning, you can read more about it
                 <Link to="/research"> here</Link>.
+            </p>
+
+            <p>
+                In Summer 2022 I will be going back to <b>Citadel</b> as a quantitative development intern.
             </p>
 
             <p>
