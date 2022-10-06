@@ -15,11 +15,11 @@ export default function Home() {
 
             <h1>About</h1>
             <p>
-                I am a fourth-year student studying computer science engineering and (honors) mathematics at the <b>University of Michigan</b>. 
+                I am a senior undergraduate student studying computer science engineering and (honors) mathematics at the <b>University of Michigan</b>. 
             </p>
             <p>
                 My main interests are in <b>pure math </b> 
-                (especially graph theory and probability theory), <b>statistics</b>, <b>machine learning </b> (especially deep learning and reinforcement learning), and 
+                (especially graph theory and probability theory), <b>statistics</b>, <b>machine learning </b> (mainly reinforcement learning), and 
                 <b> theoretical computer science</b>.
             </p>
             <p>
@@ -29,17 +29,14 @@ export default function Home() {
 
             <h1>Experience</h1>
             <p>
-                I am currently working as a research assistant at the University of Michigan EECS department and statistics department, advised by prof. <a href="https://ambujtewari.github.io/" target="_blank">Ambuj Tewari</a>.
-                My work is mainly on reinforcement learning, you can read more about it
+                I am currently working as a researcher at the University of Michigan statistics department, advised by prof. <a href="https://ambujtewari.github.io/" target="_blank">Ambuj Tewari</a>.
+                My work is on reinforcement learning, you can read more about it
                 <Link to="/research"> here</Link>.
             </p>
 
             <p>
-                In Summer 2022 I will be going back to <b>Citadel</b> as a quantitative development intern.
-            </p>
-
-            <p>
-                In Summer 2021 I interned at <b>Citadel</b> as a software engineering intern in Chicago.
+                In Summer 2022 I worked at <b>Citadel</b> as a quantitative development intern in New York. <br/>
+                In Summer 2021 I interned at <b>Citadel</b> as a software engineering intern in Chicago. <br/>
                 In Summer 2020, I worked as an SDE intern at <b> Amazon</b>.
             </p>
 
@@ -48,7 +45,7 @@ export default function Home() {
             </p>
 
             <p>
-                I am also a grader for EECS 376: Foundations of Computer Science.
+                I was also a grader for EECS 376: Foundations of Computer Science in 2020-2021.
             </p>
 
             <div className="Bottom"/>

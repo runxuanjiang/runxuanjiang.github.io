@@ -1,7 +1,7 @@
 import './App.css';
 import {
   HashRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link,
   useLocation
@@ -27,17 +27,13 @@ function App() {
         <div className="App">
           <TopBar/>
           <LinksBar/>
-          <Switch>
-            <Route path="/research">
-              <Research />
-            </Route>
+          <Routes>
+            <Route path="/research" element={<Research />} />
             {/* <Route path="/projects">
               <Projects />
             </Route> */}
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+            <Route path="/" element={<Home />} />
+          </Routes>
         </div>
       </Router>
       <div className="BottomBar">
