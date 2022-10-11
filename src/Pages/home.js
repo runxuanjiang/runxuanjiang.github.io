@@ -15,11 +15,11 @@ export default function Home() {
 
             <h1>About</h1>
             <p>
-                I am a senior undergraduate student studying computer science engineering and (honors) mathematics at the <b>University of Michigan</b>. 
+                I am a senior undergraduate student studying computer science engineering and honors mathematics at the <b>University of Michigan</b>. 
             </p>
             <p>
-                My main interests are in <b>pure math </b> 
-                (especially graph theory and probability theory), <b>statistics</b>, <b>machine learning </b> (mainly reinforcement learning), and 
+                I'm interested in <b>pure math </b> 
+                (especially analysis and combinatorics), <b>statistics</b>, <b>machine learning </b> (mainly reinforcement learning), and 
                 <b> theoretical computer science</b>.
             </p>
             <p>
@@ -34,19 +34,27 @@ export default function Home() {
                 <Link to="/research"> here</Link>.
             </p>
 
-            <p>
-                In Summer 2022 I worked at <b>Citadel</b> as a quantitative development intern in New York. <br/>
-                In Summer 2021 I interned at <b>Citadel</b> as a software engineering intern in Chicago. <br/>
-                In Summer 2020, I worked as an SDE intern at <b> Amazon</b>.
-            </p>
+            <ul>
+                <li>
+                    In Summer 2022 I worked at <b>Citadel</b> as a quantitative development intern in New York. <br/>
+                </li>
 
-            <p>
-                In Summer 2019, I participated in a study-abroad program at the <b>Shanghai Jiao Tong University</b> in Shanghai, China.
-            </p>
+                <li>
+                    In Summer 2021 I interned at <b>Citadel</b> as a software engineering intern in Chicago. <br/>
+                </li>
 
-            <p>
-                I was also a grader for EECS 376: Foundations of Computer Science in 2020-2021.
-            </p>
+                <li>
+                    In Summer 2020, I worked as an SDE intern at <b> Amazon</b>.
+                </li>
+
+                <li>
+                    In Summer 2019, I participated in a study-abroad program at the <b>Shanghai Jiao Tong University</b> in Shanghai, China.
+                </li>
+
+                <li>
+                    I was also a grader for EECS 376: Foundations of Computer Science in 2020-2021.
+                </li>
+            </ul>
 
             <div className="Bottom"/>
         </div>

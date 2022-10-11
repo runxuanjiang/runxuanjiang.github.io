@@ -4,14 +4,12 @@ export default function Research() {
             <h1>Research</h1>
             <p>
                 I am an undergraduate researcher at the University of Michigan department of statistics, where I am fortunate to be advised by professor <a href="https://ambujtewari.github.io/" target="_blank">Ambuj Tewari</a>.
-                I have also collaborated with professor <a href="https://sites.lsa.umich.edu/zimmerman-lab/author/paulzim/" target="_blank"> Paul Zimmerman </a> in exploring the applications of machine learning
+                I have also previously collaborated with professor <a href="https://sites.lsa.umich.edu/zimmerman-lab/author/paulzim/" target="_blank"> Paul Zimmerman </a> in exploring the applications of machine learning
                 in computational chemistry.
             </p>
             <p>
-                My current work is in reinforcement learning (RL), and how it can be applied to the conformer generation and other tasks in computational chemistry.
-                I am interested in exploring models that involve hierarchical RL and multi-agent RL, and their effectiveness in conformer generation.
-                I am also investigating how deep learning methods - particularly transfer and curriculum learning - can be used to improve training, 
-                as well as how modifications to graph neural network and attention network architectures can improve agent performance.
+                My current work is in the theoretical analysis of curriculum learning in reinforcement learning (RL).
+                Previously I've researched the applications of reinforcement learning and deep learning to chemoinformatic tasks like conformer generation.
             </p>
 
             <h1>Publications</h1>
